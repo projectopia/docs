@@ -1,0 +1,2 @@
+# docs
+Mkdocs Technical documentation
