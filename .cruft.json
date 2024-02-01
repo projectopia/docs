@@ -1,0 +1,15 @@
+{
+  "template": "git@github.com:projectopia/forge.blog.git",
+  "commit": "1232c4b346abc33210e0ee6aa69a5fd74dd31ee1",
+  "checkout": "feature/1-repository-scaffold-blog-mkdocs",
+  "context": {
+    "cookiecutter": {
+      "blog_name": "Projectopia",
+      "blog_slug": "projectopia",
+      "blog_tagline": "Technical Documentation",
+      "github_username": "projectopia",
+      "_template": "git@github.com:projectopia/forge.blog.git"
+    }
+  },
+  "directory": "mkdocs-material-template"
+}
