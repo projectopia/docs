@@ -13,8 +13,5 @@
             ]
         }
     },
-    "features": {
-        "ghcr.io/devcontainers/features/github-cli": "latest"
-    },
 	"forwardPorts": [8000]
 }
