@@ -1,14 +1,10 @@
-FROM squidfunk/mkdocs-material:latest
+FROM mcr.microsoft.com/vscode/devcontainers/python:3.9
 
-# Install bash
 RUN \
-  apk upgrade --update-cache -a && \
-  apk add --no-cache bash curl
-
-# Install starship with pure prompt
-RUN \
+  pip install mkdocs-material && \
   sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes && \
-  echo 'starship preset pure-preset -o ~/.config/starship.toml' >> ~/.bashrc && \
-  echo 'eval "$(starship init bash)"' >> ~/.bashrc
+  echo 'starship preset pure-preset -o /home/vscode/.config/starship.toml' >> /home/vscode/.bashrc && \
+  echo 'eval "$(starship init bash)"' >> /home/vscode/.bashrc
 
-SHELL ["/bin/bash", "-c"]
+USER vscode
+EXPOSE 8000
