@@ -1,4 +1,4 @@
-# Workflow Explaination
+# Workflow explaination
 
 ## tl;dr: Projectopia Workflow
 

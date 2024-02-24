@@ -1,4 +1,4 @@
-# Projectopia Documentation
+# Projectopia documentation
 
 !!! important "Powered by GitHub"
 

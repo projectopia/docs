@@ -1,4 +1,4 @@
-# Scaffold - Soul of Projectopia
+# Scaffold - soul of Projectopia
 
 ![scaffold](./assets/img/scaffold.png)
 
