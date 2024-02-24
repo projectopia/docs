@@ -1,8 +1,19 @@
 site_name: Projectopia
+repo_url: https://github.com/projectopia/docs
+repo_name: projectopia/docs
 theme:
+  font:
+    text: Inter
+    code: JetBrains Mono
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
   name: material
+  icon:
+    repo: fontawesome/brands/git-alt 
+  features:
+    - navigation.instant
+    - navigation.instant.progress
   palette:
-
     # Palette toggle for light mode
     - scheme: default
       toggle:
@@ -14,3 +25,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

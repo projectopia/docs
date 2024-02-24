@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Projectopia Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+!!! important "Powered by GitHub"
 
-## Commands
+    Empower Your Projects with Effortless Beginnings. Projectopia ignites your projects with a seamless start, removing barriers so you can dive into creativity effortlessly.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Welcome to Projectopia Technical Documentation
 
-## Project layout
+Projectopia streamlines your project initiation, equipping you with:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- Template Application: Swiftly apply pre-defined project structures and configurations.
+- Automated **GitHub** Repository Creation: Eliminate manual setup with instant GitHub repository generation.
+- Pre-configured **GitHub Actions** Workflow: Streamline development processes with pre-defined automation workflows.
+
+![Github](./assets/img/github-actions.jpg)
+
+### Quick start
+
+- Go to **Technical Explaination** to learn deep-dive on tech stack that we use
+- Go to **Workflow Explaination** for an overview of how we doing this project
+- Go to **Scaffold - Soul of Projectopia** for an overview of the heart of Projectopia
