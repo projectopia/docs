@@ -13,6 +13,13 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.progress
+    - content.code.select
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+    - navigation.indexes
+    - navigation.tracking
+    - announce.dismiss
   palette:
     # Palette toggle for light mode
     - scheme: default
